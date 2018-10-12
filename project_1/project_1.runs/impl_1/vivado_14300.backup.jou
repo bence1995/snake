@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Oct 11 20:10:09 2018
+# Process ID: 14300
+# Current directory: W:/snake/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log snake_hw_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source snake_hw_wrapper.tcl -notrace
+# Log file: W:/snake/project_1/project_1.runs/impl_1/snake_hw_wrapper.vdi
+# Journal file: W:/snake/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source snake_hw_wrapper.tcl -notrace

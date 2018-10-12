@@ -1,0 +1,11 @@
+20:36:08 **** Incremental Build of configuration Debug for project snake ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "snake.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8448	   2408	    296	  11152	   2b90	snake.elf
+Finished building: snake.siz
+ 
+
+20:36:08 Build Finished (took 207ms)
+

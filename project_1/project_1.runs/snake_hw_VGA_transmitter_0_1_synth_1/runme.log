@@ -1,0 +1,315 @@
+
+*** Running vivado
+    with args -log snake_hw_VGA_transmitter_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source snake_hw_VGA_transmitter_0_1.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source snake_hw_VGA_transmitter_0_1.tcl -notrace
+Command: synth_design -top snake_hw_VGA_transmitter_0_1 -part xc7k70tfbg676-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10704 
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:25]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:26]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:27]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:28]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:29]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:30]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:31]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:32]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:33]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:34]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:35]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:36]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:37]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:38]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:39]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:40]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 357.750 ; gain = 115.156
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'snake_hw_VGA_transmitter_0_1' [w:/snake/project_1/project_1.srcs/sources_1/bd/snake_hw/ip/snake_hw_VGA_transmitter_0_1/synth/snake_hw_VGA_transmitter_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'VGA_transmitter' [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:45]
+INFO: [Synth 8-4471] merging register 'green_reg[1:0]' into 'red_reg[1:0]' [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:96]
+INFO: [Synth 8-4471] merging register 'blue_reg[1:0]' into 'red_reg[1:0]' [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:97]
+WARNING: [Synth 8-6014] Unused sequential element green_reg was removed.  [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:96]
+WARNING: [Synth 8-6014] Unused sequential element blue_reg was removed.  [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:97]
+INFO: [Synth 8-256] done synthesizing module 'VGA_transmitter' (1#1) [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:45]
+INFO: [Synth 8-256] done synthesizing module 'snake_hw_VGA_transmitter_0_1' (2#1) [w:/snake/project_1/project_1.srcs/sources_1/bd/snake_hw/ip/snake_hw_VGA_transmitter_0_1/synth/snake_hw_VGA_transmitter_0_1.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 389.090 ; gain = 146.496
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 389.090 ; gain = 146.496
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbg676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 706.598 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 706.598 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbg676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 706.598 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 706.598 ; gain = 464.004
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "v_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "main_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_sync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_sync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_blank" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_blank" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element h_cnt_reg was removed.  [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:71]
+WARNING: [Synth 8-6014] Unused sequential element main_cnt_reg was removed.  [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:85]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 706.598 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module VGA_transmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "inst/v_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/h_sync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/v_sync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/main_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/v_blank" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/h_blank" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element inst/h_cnt_reg was removed.  [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:71]
+WARNING: [Synth 8-6014] Unused sequential element inst/main_cnt_reg was removed.  [W:/snake/project_1/project_1.srcs/sources_1/new/VGA_transmitter.v:85]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 706.598 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 716.539 ; gain = 473.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 716.539 ; gain = 473.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     3|
+|2     |LUT2 |    14|
+|3     |LUT3 |     8|
+|4     |LUT4 |    10|
+|5     |LUT5 |     9|
+|6     |LUT6 |    24|
+|7     |FDRE |    34|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |   102|
+|2     |  inst   |VGA_transmitter |   102|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 736.613 ; gain = 176.512
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 736.613 ; gain = 494.020
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 741.781 ; gain = 509.953
+INFO: [Common 17-1381] The checkpoint 'W:/snake/project_1/project_1.runs/snake_hw_VGA_transmitter_0_1_synth_1/snake_hw_VGA_transmitter_0_1.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'W:/snake/project_1/project_1.runs/snake_hw_VGA_transmitter_0_1_synth_1/snake_hw_VGA_transmitter_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file snake_hw_VGA_transmitter_0_1_utilization_synth.rpt -pb snake_hw_VGA_transmitter_0_1_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 741.781 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 11 20:08:37 2018...

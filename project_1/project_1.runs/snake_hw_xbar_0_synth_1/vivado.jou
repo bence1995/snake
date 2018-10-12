@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct  3 19:23:05 2018
+# Process ID: 15696
+# Current directory: W:/snake/project_1/project_1.runs/snake_hw_xbar_0_synth_1
+# Command line: vivado.exe -log snake_hw_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source snake_hw_xbar_0.tcl
+# Log file: W:/snake/project_1/project_1.runs/snake_hw_xbar_0_synth_1/snake_hw_xbar_0.vds
+# Journal file: W:/snake/project_1/project_1.runs/snake_hw_xbar_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source snake_hw_xbar_0.tcl -notrace

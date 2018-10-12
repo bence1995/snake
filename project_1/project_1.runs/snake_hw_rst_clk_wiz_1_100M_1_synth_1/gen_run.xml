@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="snake_hw_rst_clk_wiz_1_100M_1_synth_1" LaunchPart="xc7k70tfbg676-1" LaunchTime="1538590594">
+  <File Type="PA-TCL" Name="snake_hw_rst_clk_wiz_1_100M_1.tcl"/>
+  <File Type="REPORTS-TCL" Name="snake_hw_rst_clk_wiz_1_100M_1_reports.tcl"/>
+  <File Type="RDS-RDS" Name="snake_hw_rst_clk_wiz_1_100M_1.vds"/>
+  <File Type="RDS-UTIL" Name="snake_hw_rst_clk_wiz_1_100M_1_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="snake_hw_rst_clk_wiz_1_100M_1_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="snake_hw_rst_clk_wiz_1_100M_1.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/snake_hw_rst_clk_wiz_1_100M_1">
+    <File Path="$PSRCDIR/sources_1/bd/snake_hw/ip/snake_hw_rst_clk_wiz_1_100M_1/snake_hw_rst_clk_wiz_1_100M_1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="snake_hw_rst_clk_wiz_1_100M_1"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/snake_hw_rst_clk_wiz_1_100M_1">
+    <File Path="$PSRCDIR/sources_1/bd/snake_hw/ip/snake_hw_rst_clk_wiz_1_100M_1/snake_hw_rst_clk_wiz_1_100M_1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="snake_hw_rst_clk_wiz_1_100M_1"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

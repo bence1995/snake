@@ -1,0 +1,424 @@
+20:37:33 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:37:38 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:37:55 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:38:56 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:41:32 **** Clean-only build of project snakee_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C microblaze_0/libsrc/gpio_v4_3/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_5/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+20:41:33 **** Build of project snakee_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+20:42:28 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+20:42:52 **** Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+Building file: ../src/xuartlite_intr_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xuartlite_intr_example.d" -MT"src/xuartlite_intr_example.o" -o "src/xuartlite_intr_example.o" "../src/xuartlite_intr_example.c"
+Finished building: ../src/xuartlite_intr_example.c
+ 
+Building target: standalone_bsp_0_xuartlite_intr_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xuartlite_intr_example_1.elf"  ./src/xuartlite_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xuartlite_intr_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xuartlite_intr_example_1.elf  |tee "standalone_bsp_0_xuartlite_intr_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10148	    340	   3552	  14040	   36d8	standalone_bsp_0_xuartlite_intr_example_1.elf
+Finished building: standalone_bsp_0_xuartlite_intr_example_1.elf.size
+ 
+20:43:12 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:43:12 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:44:17 **** Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: standalone_bsp_0_xgpio_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xgpio_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xgpio_example_1.elf  |tee "standalone_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6036	    340	   3136	   9512	   2528	standalone_bsp_0_xgpio_example_1.elf
+Finished building: standalone_bsp_0_xgpio_example_1.elf.size
+ 
+20:45:03 **** Auto Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+Building file: ../src/xuartlite_intr_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xuartlite_intr_example.d" -MT"src/xuartlite_intr_example.o" -o "src/xuartlite_intr_example.o" "../src/xuartlite_intr_example.c"
+Finished building: ../src/xuartlite_intr_example.c
+ 
+Building target: standalone_bsp_0_xuartlite_intr_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xuartlite_intr_example_1.elf"  ./src/xuartlite_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xuartlite_intr_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xuartlite_intr_example_1.elf  |tee "standalone_bsp_0_xuartlite_intr_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10148	    340	   3552	  14040	   36d8	standalone_bsp_0_xuartlite_intr_example_1.elf
+Finished building: standalone_bsp_0_xuartlite_intr_example_1.elf.size
+ 
+20:47:08 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:47:09 **** Incremental Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:47:09 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:47:21 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: standalone_bsp_0_xgpio_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xgpio_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xgpio_example_1.elf  |tee "standalone_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6036	    340	   3136	   9512	   2528	standalone_bsp_0_xgpio_example_1.elf
+Finished building: standalone_bsp_0_xgpio_example_1.elf.size
+ 
+20:47:22 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:47:22 **** Incremental Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:47:23 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:47:28 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:47:28 **** Incremental Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:47:28 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:47:43 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: standalone_bsp_0_xgpio_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xgpio_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xgpio_example_1.elf  |tee "standalone_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6036	    340	   3136	   9512	   2528	standalone_bsp_0_xgpio_example_1.elf
+Finished building: standalone_bsp_0_xgpio_example_1.elf.size
+ 
+20:47:50 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:47:50 **** Incremental Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:47:51 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:48:44 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: standalone_bsp_0_xgpio_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xgpio_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xgpio_example_1.elf  |tee "standalone_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6036	    340	   3136	   9512	   2528	standalone_bsp_0_xgpio_example_1.elf
+Finished building: standalone_bsp_0_xgpio_example_1.elf.size
+ 
+20:49:16 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:71:13: error: invalid suffix "x" on integer constant
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+             ^
+../src/xgpio_example.c:158:46: note: in expansion of macro 'LED'
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/xgpio_example.c:71:15: error: stray '`' in program
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+               ^
+../src/xgpio_example.c:158:46: note: in expansion of macro 'LED'
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/xgpio_example.c:71:16: error: stray '`' in program
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+                ^
+../src/xgpio_example.c:158:46: note: in expansion of macro 'LED'
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/xgpio_example.c:71:17: error: expected ')' before 'FFFFFF'
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+                 ^
+../src/xgpio_example.c:158:46: note: in expansion of macro 'LED'
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/xgpio_example.c:71:13: error: invalid suffix "x" on integer constant
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+             ^
+../src/xgpio_example.c:166:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:15: error: stray '`' in program
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+               ^
+../src/xgpio_example.c:166:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:16: error: stray '`' in program
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+                ^
+../src/xgpio_example.c:166:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:17: error: expected ')' before 'FFFFFF'
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+                 ^
+../src/xgpio_example.c:166:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:13: error: invalid suffix "x" on integer constant
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+             ^
+../src/xgpio_example.c:172:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:15: error: stray '`' in program
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+               ^
+../src/xgpio_example.c:172:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:16: error: stray '`' in program
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+                ^
+../src/xgpio_example.c:172:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:17: error: expected ')' before 'FFFFFF'
+ #define LED 0x``FFFFFF   /* Assumes bit 0 of GPIO is connected to an LED  */
+                 ^
+../src/xgpio_example.c:172:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+make: *** [src/xgpio_example.o] Error 1
+20:49:17 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: standalone_bsp_0_xgpio_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xgpio_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xgpio_example_1.elf  |tee "standalone_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6048	    340	   3132	   9520	   2530	standalone_bsp_0_xgpio_example_1.elf
+Finished building: standalone_bsp_0_xgpio_example_1.elf.size
+ 
+20:49:18 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:49:22 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:49:22 **** Incremental Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:49:23 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:49:45 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: standalone_bsp_0_xgpio_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xgpio_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xgpio_example_1.elf  |tee "standalone_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6036	    340	   3136	   9512	   2528	standalone_bsp_0_xgpio_example_1.elf
+Finished building: standalone_bsp_0_xgpio_example_1.elf.size
+ 
+20:49:47 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:71:22: error: expected ')' before ';' token
+ #define LED 0x0000000;   /* Assumes bit 0 of GPIO is connected to an LED  */
+                      ^
+../src/xgpio_example.c:158:46: note: in expansion of macro 'LED'
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/xgpio_example.c:71:22: error: expected ')' before ';' token
+ #define LED 0x0000000;   /* Assumes bit 0 of GPIO is connected to an LED  */
+                      ^
+../src/xgpio_example.c:166:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/xgpio_example.c:71:22: error: expected ')' before ';' token
+ #define LED 0x0000000;   /* Assumes bit 0 of GPIO is connected to an LED  */
+                      ^
+../src/xgpio_example.c:172:43: note: in expansion of macro 'LED'
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+make: *** [src/xgpio_example.o] Error 1
+20:49:50 **** Auto Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+Building file: ../src/xgpio_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: standalone_bsp_0_xgpio_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "standalone_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xgpio_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size standalone_bsp_0_xgpio_example_1.elf  |tee "standalone_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6036	    340	   3136	   9512	   2528	standalone_bsp_0_xgpio_example_1.elf
+Finished building: standalone_bsp_0_xgpio_example_1.elf.size
+ 
+20:49:52 **** Incremental Build of configuration Debug for project snakee ****
+make all 
+make: Nothing to be done for `all'.
+20:49:53 **** Incremental Build of configuration Debug for project standalone_bsp_0_xgpio_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+20:49:53 **** Incremental Build of configuration Debug for project standalone_bsp_0_xuartlite_intr_example_1 ****
+make all 
+make: Nothing to be done for `all'.
